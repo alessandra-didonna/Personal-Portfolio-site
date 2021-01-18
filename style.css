@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*NAVBAR*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link {
+    transition: 0.3s !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(247,231,58) !important;
+}
+
+.margin-space-l {
+    color: #FFFFFF !important;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-right: 100px;
+    cursor: none !important;
+}
+
+.margin-space-r{
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+.nav-cursor {
+    cursor: initial;
+}
+
+/*NAVBAR END*/
+/*BG-IMG SECTION*/
+.container-fluid {
+    height: 750px; 
+    padding: 0 !important;
+}
+
+.bgPhoto {
+    opacity: 0.8;
+    filter: blur(0.8px);
+}
+
+.description {
+    position: absolute; 
+    margin-top: 80px;
+}
+
+.profilePic {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    height: 220px; 
+    width: 220px; 
+    border-radius: 50%;
+}
+
+.btn {
+    height: 50px; 
+    width: 200px; 
+    border-radius: 6px !important;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #16A085 0%, #fffc44  40%, #16A085  100%);
+}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s !important;
+    background-size: 200% auto;          
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+}
+
+.title {
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 10px wheat;
+}
+
+.titleName {
+    font-size: 3.7rem;
+    text-shadow: 1px 1px 20px wheat;
+    letter-spacing: 4px;
+}
+
+.titleDescription {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow: 1px 1px 10px wheat;
+}
+
+.animateName {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-1000px);
+}
+
+.animateTitles {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(+1000px);
+}
+
+.animateBtns {
+    visibility: hidden;
+    opacity: 0;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.animateBtns:hover {
+    background-color: rgb(247,231,58) !important;
+    color: #000 !important;
+}
+
+.animatePic {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/**/
+/* ABOUT SECTION*/
+.aboutme-margin {
+    margin-top: 80px;
+}
+
+.skills-margin {
+    margin-top: 80px;
+}
+/**/
+/* CARD SECTION*/
+.card {
+    border: none !important;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.5s !important;
+}
+
+.cardHeightF {
+height: 450px;
+}
+
+.cardHeightB {
+height: 350px;
+}
+
+.card-bg {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #fffa49 100%);
+}
+
+.category {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9A9A9A;
+}
+/**/
+/* CONTACT FORM SECTION*/
+input::placeholder {
+    color: rgba(128, 128, 128, 0.651) !important;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+textarea::placeholder {
+    color: rgba(128, 128, 128, 0.651) !important;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+/**/
+/* FOOTER SECTION */
+footer {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #fffa49 100%);
+    height: 100px;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-github-square,
+.fa-linkedin {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    color: #0a66c2;
+    transition: 0.5s !important;
+}
+
+.fa-linkedin:hover {
+    color: rgb(20, 173, 220);
+}
+
+.fa-github-square {
+    color: #1a1a1a;
+    transition: 0.5s !important;
+}
+
+.fa-github-square:hover {
+    color: rgb(71, 71, 71);
+}
+
+.fa-instagram-square {
+    color: #d10984;
+    transition: 0.5s !important;
+}
+
+.fa-instagram-square:hover {
+    color: rgb(223, 10, 56);
+}
+
+.fa-facebook-square {
+    color: #004a94;
+    transition: 0.5s !important;
+}
+
+.fa-facebook-square:hover {
+    color: rgb(0, 126, 165);
+}
+
+/**/
+/* GENERAL */
+.v-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
