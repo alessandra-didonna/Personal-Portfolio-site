@@ -260,45 +260,51 @@
     <div class="card">
       <div class="row">
         <div class="col">
-          <div class="card-body form">
-            <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Write to Me:</h3>
+          <div class="card-body form d-flex flex-column justify-content-center align-items-stretch p-4">
+            <h2 class="mt-2 mb-3 text-center">
+              <i class="fas fa-envelope pr-2"></i>
+              Write to Me:
+              <hr class="mt-4">
+            </h2>
             <div class="row">
               <div class="col-md-6">
-                <div class="md-form mb-0">
-                  <input type="text" id="form-contact-name" class="form-control" placeholder="name">
-                  <label for="form-contact-name" class="">Your name</label>
+                <div class="md-form my-2">
+                  <label for="form-contact-name" class="font-weight-bolder">Your name</label>
+                  <input type="text" id="form-contact-name" class="form-control" placeholder="Name and Surname">
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="md-form mb-0">
-                  <input type="text" id="form-contact-email" class="form-control" placeholder="email">
-                  <label for="form-contact-email" class="">Your email</label>
+                <div class="md-form my-2">
+                  <label for="form-contact-email" class="font-weight-bolder">Your email</label>
+                  <input type="text" id="form-contact-email" class="form-control" placeholder="Email">
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="md-form mb-0">
-                  <input type="text" id="form-contact-phone" class="form-control" placeholder="phone">
-                  <label for="form-contact-phone" class="">Your phone</label>
+                <div class="md-form my-2">
+                  <label for="form-contact-phone" class="font-weight-bolder">Your phone</label>
+                  <input type="text" id="form-contact-phone" class="form-control" placeholder="Phone number">
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="md-form mb-0">
-                  <input type="text" id="form-contact-company" class="form-control" placeholder="company">
-                  <label for="form-contact-company" class="">Your company</label>
+                <div class="md-form my-2">
+                  <label for="form-contact-company" class="font-weight-bolder">Your company</label>
+                  <input type="text" id="form-contact-company" class="form-control" placeholder="Company">
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-12">
-                <div class="md-form mb-0">
-                  <textarea id="form-contact-message" class="form-control md-textarea" rows="3" placeholder="your message"></textarea>
-                  <label for="form-contact-message">Your message</label>
-                  <a class="btn-floating btn-lg blue">
-                    <i class="far fa-paper-plane"></i>
-                  </a>
+                <div class="md-form my-2">
+                  <label for="form-contact-message" class="font-weight-bolder">Your message</label>
+                  <textarea id="form-contact-message" class="form-control md-textarea" rows="3" placeholder="Some text here..."></textarea>
                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button class="btn btn-warning w-100 mt-3">Send</button>
               </div>
             </div>
           </div>
