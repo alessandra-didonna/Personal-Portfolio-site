@@ -182,14 +182,14 @@ height: 350px;
 /* CONTACT FORM SECTION*/
 input::placeholder {
     color: rgba(128, 128, 128, 0.651) !important;
-    font-size: 13px;
-    letter-spacing: 4px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 textarea::placeholder {
     color: rgba(128, 128, 128, 0.651) !important;
-    font-size: 13px;
-    letter-spacing: 4px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 /**/
 /* FOOTER SECTION */
